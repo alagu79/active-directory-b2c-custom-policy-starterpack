@@ -4,13 +4,13 @@
   xmlns:xsd="http://www.w3.org/2001/XMLSchema"
   xmlns="http://schemas.microsoft.com/online/cpim/schemas/2013/06"
   PolicySchemaVersion="0.3.0.0"
-  TenantId="yourtenant.onmicrosoft.com"
-  PolicyId="B2C_1A_signup_signin"
-  PublicPolicyUri="http://yourtenant.onmicrosoft.com/B2C_1A_signup_signin">
+  TenantId="${TenantId}"
+  PolicyId="${B2C1A_PolicyId}"
+  PublicPolicyUri="${PublicPolicyURI}">
 
   <BasePolicy>
-    <TenantId>yourtenant.onmicrosoft.com</TenantId>
-    <PolicyId>B2C_1A_TrustFrameworkExtensions</PolicyId>
+    <TenantId>${TenantId}</TenantId>
+    <PolicyId>${B2C1A_TFExt}</PolicyId>
   </BasePolicy>
 
   <RelyingParty>
